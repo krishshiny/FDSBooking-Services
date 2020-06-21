@@ -6,6 +6,9 @@ Food Delivery system data model
 
 Mongo database using for store the data.
 
+User Model:
+-----------
+
 {
     "_id" : ObjectId("5eecb14a7b7fd3492e23b516"),
     "name" : "Krishna",
@@ -16,6 +19,9 @@ Mongo database using for store the data.
     "active" : true
 }
 
+Food Model:
+-------------------
+
 {
     "_id" : ObjectId("5eecc5207b7fd3492e23b9f5"),
     "name" : "Sapathi",
@@ -23,7 +29,8 @@ Mongo database using for store the data.
     "foodType" : "Veg"
 }
 
-
+Restaurants:
+---------------
 {
     "_id" : ObjectId("5eecc7667b7fd3492e23ba80"),
     "orderDateTime" : ISODate("2020-01-21T10:10:00.000Z"),
@@ -57,6 +64,8 @@ Mongo database using for store the data.
     "status" : "Ordered"
 }
 
+Orders:
+--------------
 {
     "_id" : ObjectId("5eecb6e67b7fd3492e23b5f8"),
     "name" : "A2B",
@@ -92,7 +101,8 @@ Mongo database using for store the data.
     ]
 }
 
-
+Booking:
+-----------
 {
     "_id" : ObjectId("5eed7f727b7fd3492e23bc95"),
     "orderReferenceId" : ObjectId("5eecc7667b7fd3492e23ba80"),
